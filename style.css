@@ -1,0 +1,101 @@
+/* Thiết lập chung */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Khối chính */
+#main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* Phần đầu trang */
+#head {
+  height: 100px;
+  background-color: #3498db;
+  border: 1px solid #2980b9;
+  margin-bottom: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* Menu đầu trang */
+#head-link {
+  height: 50px;
+  background-color: #34495e;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* Link trong menu */
+#head-link a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+/* Hiệu ứng khi rê chuột */
+#head-link a:hover {
+  color: #f1c40f;
+}
+
+/* Cột bên trái */
+#left {
+  width: 200px;
+  min-height: 400px;
+  background-color: #ecf0f1;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Link bên trái */
+#left ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#left li {
+  margin: 15px 0;
+}
+
+#left a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Nội dung chính */
+#content {
+  width: 560px;
+  min-height: 400px;
+  background-color: white;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Cột bên phải */
+#right {
+  width: 240px;
+  min-height: 400px;
+  background-color: #ecf0f1;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Footer */
+#footer {
+  clear: both;
+  height: 80px;
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
